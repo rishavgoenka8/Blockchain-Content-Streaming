@@ -2,15 +2,15 @@
 
 A decentralised Video Streaming service that is run by basically the customers and the content creators.
 
-### Follow the below mentioned steps and commands to run the Supply Chain Management System:
+### Follow the below mentioned steps and commands to run the Blockchain Content Streaming:
 
 Migrate to the directory ```/src/backend/contracts```. 
 
-The ```SupplyChain.sol``` contract contains the code for the Supply Chain Management System
+The ```StreamContract.sol``` contract contains the code for the Streaming Service
 
 Deploy the contract in a ```truffle``` environment. You can setup ```truffle``` using https://trufflesuite.com/docs/truffle/how-to/install/ and ```ganache``` using https://trufflesuite.com/docs/ganache/quickstart/
 
-Once deployed you need to copy the supply chain contract address and paste it to ```Line 46``` of ```App.js``` file.
+Once deployed you need to copy the supply chain contract address and paste it to ```Line 25``` of ```App.js``` file.
 
 Migrate to the root directory to start the react server to use the contract funtionality with the front-end.
 
